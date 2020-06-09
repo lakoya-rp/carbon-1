@@ -9,9 +9,9 @@ const Header = ({ enableHeroText }) => (
       </a>
       {enableHeroText ? (
         <h2 className="mt3">
-          Create and share beautiful images of your source code.
+          Le partage de code réinventé. Développeurs de Rhiven, faites en bonne usage
           <br />
-          Start typing or drop a file into the text area to get started.
+          Hébergé par et pour Rhiven
         </h2>
       ) : null}
     </div>
