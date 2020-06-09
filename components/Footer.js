@@ -4,37 +4,9 @@ import { COLORS } from '../lib/constants'
 
 const Footer = () => (
   <footer role="contentinfo" className="mt3">
-    <nav className="mt3">
-      <Link href="/about" prefetch={false}>
-        <a className="link" href="/about">
-          about
-        </a>
-      </Link>
-      <a className="link" href="https://github.com/carbon-app/carbon/issues/new">
-        feedback
+      <a className="link" href="https://rhiven.fr">
+        Rhiven
       </a>
-      <a className="link" href="https://github.com/carbon-app/carbon">
-        source
-      </a>
-      <a className="link" href="/terms">
-        terms
-      </a>
-      <a className="link" href="/privacy">
-        privacy
-      </a>
-      <a className="link" href="/offsets">
-        offsets
-      </a>
-      {/* <span className="new">New</span> */}
-    </nav>
-
-    <div className="mt2 mb2">
-      created by{' '}
-      <a className="author-link" href="https://twitter.com/carbon_app">
-        @carbon_app
-      </a>{' '}
-      ¬
-    </div>
     <style jsx>
       {`
         footer {
